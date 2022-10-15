@@ -1,2 +1,4 @@
-# capacIT.com        (Proyecto Integrador - ISPC)
+# capacIT.com       
+
+(Proyecto Integrador - ISPC)
 
