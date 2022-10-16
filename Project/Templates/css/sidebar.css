@@ -1,12 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 *{
     font-family: 'Oxygen', sans-serif;
-    background-color: azure;
+    
     margin: 0;
+}
+
+body {
+    padding: 0;
 }
 .navbar{
     display: flex;
     padding-bottom: 1rem;
+
+    position: absolute;
+    height: 100vh;
+    flex-direction: column;
+    width: 80px;
+    background-color: rgb(220, 192, 247);
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+nav:hover {
+    width: 250px;
 }
 .navbar__lista{
     text-decoration: none;
@@ -16,15 +34,24 @@
 .navbar__lista___item{
     margin: 2.3rem 0;
 }
-.bi{
+.bi {
     font-size: 1.4rem;
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
-a{
+a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bolder;
-    margin-left: 0.6rem;
+    margin-left: 0.3rem;
     color: black;
     outline: transparent solid 2px;
     outline-offset: 2px;
+
+    display: flex;
+    
+    width: var(--width);
+    overflow: hidden;
 }
