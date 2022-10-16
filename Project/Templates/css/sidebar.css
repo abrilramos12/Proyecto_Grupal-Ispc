@@ -2,6 +2,7 @@
 *{
     font-family: 'Oxygen', sans-serif;
     background-color: azure;
+    margin: 0;
 }
 .navbar{
     display: flex;
