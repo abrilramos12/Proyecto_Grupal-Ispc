@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+*{
+    font-family: 'Oxygen', sans-serif;
+}
+.navbar{
+    display: flex;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.navbar__lista{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar__lista___item{
+    margin: 2.3rem 0;
+}
+.bi{
+    font-size: 1.2em;
+}
