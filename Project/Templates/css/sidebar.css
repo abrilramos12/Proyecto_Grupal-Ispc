@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 *{
     font-family: 'Oxygen', sans-serif;
-    
     margin: 0;
 }
 
@@ -11,9 +10,8 @@ body {
 .navbar{
     display: flex;
     padding-bottom: 1rem;
-
     position: absolute;
-    height: 100vh;
+    height: 200vh;
     flex-direction: column;
     width: 80px;
     background-color: rgb(220, 192, 247);
@@ -24,7 +22,7 @@ body {
 }
 
 nav:hover {
-    width: 250px;
+    width: 200px;
 }
 .navbar__lista{
     text-decoration: none;
@@ -36,7 +34,6 @@ nav:hover {
 }
 .bi {
     font-size: 1.4rem;
-
     padding: 10px;
     display: flex;
     align-items: center;
@@ -49,9 +46,7 @@ a {
     color: black;
     outline: transparent solid 2px;
     outline-offset: 2px;
-
     display: flex;
-    
     width: var(--width);
     overflow: hidden;
 }
@@ -62,6 +57,20 @@ a {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+}
+.principal {
+	background-color: rgb(244, 241, 245);
+	padding: 2em;
+	text-align: center;
+	margin: 30px auto;
+    width: 85%;
+    border-radius: 30px;
+	
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
 }
 .principal p{
 	margin: 0 0 1em;
