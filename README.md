@@ -3,7 +3,7 @@
 (Proyecto Integrador - ISPC)
 
 
-La Web CapacIT permitirá ofrecer cursos de formación en áreas de programación, áreas IT y otras relacionadas. 
+La Web CapacIT brindará cursos de formación en áreas de programación, áreas IT y otras relacionadas. 
 
 
 
