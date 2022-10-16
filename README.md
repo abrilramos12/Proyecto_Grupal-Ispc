@@ -26,6 +26,7 @@ en nuestra [Wiki]( https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki ) s
 ## Autores ✒️
 
 * **Estudiantes TSDWAD de ISPC**
-Puede ver miembros de equipo en archivo "Miembros de equipo" (Miembros de equipo.txt)  
+
+* Puede ver miembros de equipo en archivo "Miembros de equipo" (https://github.com/abrilramos12/Proyecto_Grupal-Ispc/blob/main/Documentacion/Miembros%20de%20equipo.txt)  
 
 
