@@ -56,7 +56,7 @@ a {
     overflow: hidden;
 }
 
-/* body*/
+/* body index*/
 .titulo-principal{
 	text-align: center;
 	font-size: 2em;
@@ -110,4 +110,45 @@ a {
 	color: #000000;
 	font-size: 13px;
 	margin: 20px;
+}
+
+
+/*cursos*/
+
+.cursos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+}
+.cursos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+.cursos li:hover{
+	border-color: #c78c19;
+}
+.cursos li:active{
+	border-color: #088c19;
+}
+.cursos h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.cursos li:hover h2{
+	font-size: 33px;
+}
+.cursos-descripcion{
+	font-size: 18px;
+}
+.cursos-precio{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
 }
