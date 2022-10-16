@@ -21,6 +21,8 @@ Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON
 
 en nuestra [Wiki]( https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki ) se puede consultar Meeting realizadas y el detalle de Proyecto a realizar
 
+https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki/Proyecto-Integrador--M%C3%93DULO-FULL-STACK
+
 
 
 ## Autores ✒️
