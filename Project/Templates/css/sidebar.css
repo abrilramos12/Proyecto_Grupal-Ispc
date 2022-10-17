@@ -10,10 +10,11 @@ body {
 .navbar{
     display: flex;
     padding-bottom: 1rem;
-    position: absolute;
-    height: 200vh;
+    position: fixed;
+    height: 100vh;
     flex-direction: column;
     width: 80px;
+	overflow: visible;
     background-color: rgb(220, 192, 247);
     overflow: hidden;
     left: 0;
@@ -22,14 +23,15 @@ body {
 }
 
 nav:hover {
-    width: 200px;
+    width: 35vh;
 }
-.navbar__lista{
+.navbar-lista{
     text-decoration: none;
     list-style: none;
     width: 100%;
+	padding-left: 1.5rem;
 }
-.navbar__lista___item{
+.navbar-lista-item{
     margin: 2.3rem 0;
 }
 .bi {
@@ -38,11 +40,13 @@ nav:hover {
     display: flex;
     align-items: center;
 }
+
 a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bolder;
-    margin-left: 0.3rem;
+    margin-left: 1rem;
+	padding: 2%;
     color: black;
     outline: transparent solid 2px;
     outline-offset: 2px;
