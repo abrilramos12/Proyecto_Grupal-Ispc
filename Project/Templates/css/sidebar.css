@@ -13,7 +13,7 @@ body {
 	padding-left: 36rem;
 	padding-right: 0rem;
     background-color: #ecd7f1;
-    width: 100%;
+    width: 100vw;
 }
 .navbar{
     display: flex;
