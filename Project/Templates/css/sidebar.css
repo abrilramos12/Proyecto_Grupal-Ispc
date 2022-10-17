@@ -7,6 +7,12 @@
 body {
     padding: 0;
 }
+.iniciar-sesion {
+	padding: 10px;
+    background-color: #ecd7f1;
+    width: 100%;
+    
+}
 .navbar{
     display: flex;
     padding-bottom: 1rem;
