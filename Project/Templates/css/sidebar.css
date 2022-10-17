@@ -21,7 +21,7 @@ body {
     position: fixed;
     height: 100vh;
     flex-direction: column;
-    width: 80px;
+    width: 5em;
     background-color: rgb(220, 192, 247);
     overflow: hidden;
     left: 0;
@@ -43,7 +43,7 @@ body {
 }
 .bi {
     font-size: 1.4rem;
-    padding: 10px;
+    padding: 0.625em;
     display: flex;
     align-items: center;
 }
@@ -55,8 +55,8 @@ a {
     margin-left: 1rem;
 	padding: 2%;
     color: black;
-    outline: transparent solid 2px;
-    outline-offset: 2px;
+    outline: transparent solid 0.125em;
+    outline-offset: 0.125em;
     display: flex;
     width: var(--width);
     overflow: hidden;
@@ -73,9 +73,9 @@ a {
 	background-color: rgb(244, 241, 245);
 	padding: 2em;
 	text-align: center;
-	margin: 30px auto;
+	margin: 1.875em auto;
     width: 85%;
-    border-radius: 30px;
+    border-radius: 1.875em;
 	
 }
 
@@ -93,17 +93,17 @@ a {
 	font-style: italic;
 }
 .presentacion{
-	width: 120px;
+	width: 7.5em;
 	float: left;
-	margin: 0 20px 20px 0;
+	margin: 0 1.25em 1.25em 0;
 }
 
 .video{
-	width: 560px;
+	width: 35em;
 	margin: 1em auto;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:30em){
 	h1{
 		text-align: center;
 	}
@@ -124,21 +124,21 @@ a {
  footer{
 	text-align: center;
 	background:  #FFFFFF;
-	padding: 40px;
+	padding: 2.5em;
 }
 .copyright{
 	color: #000000;
-	font-size: 13px;
-	margin: 20px;
+	font-size: 0.8125em;
+	margin: 1.25em;
 }
 
 
 /*cursos*/
 
 .cursos{
-	width: 940px;
+	width: 58.75em;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 3.125em;
 }
 .cursos li{
 	display: inline-block;
@@ -146,10 +146,10 @@ a {
 	width: 30%;
 	vertical-align: top;
 	margin: 0 1.5%;
-	padding: 30px 20px;
+	padding: 1.875em 1.25em;
 	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
+	border: 0.125em solid #000000;
+	border-radius: 0.625em;
 }
 .cursos li:hover{
 	border-color: #c78c19;
@@ -158,17 +158,17 @@ a {
 	border-color: #088c19;
 }
 .cursos h2{
-	font-size: 30px;
+	font-size: 1.875em;
 	font-weight: bold;
 }
 .cursos li:hover h2{
-	font-size: 33px;
+	font-size: 2.0625em;
 }
 .cursos-descripcion{
-	font-size: 18px;
+	font-size: 1.125em;
 }
 .cursos-precio{
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: bold;
-	margin-top: 10px;
+	margin-top: 0.625em;
 }
