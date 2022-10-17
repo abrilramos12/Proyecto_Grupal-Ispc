@@ -22,7 +22,6 @@ body {
     height: 100vh;
     flex-direction: column;
     width: 80px;
-	overflow: visible;
     background-color: rgb(220, 192, 247);
     overflow: hidden;
     left: 0;
