@@ -27,7 +27,7 @@ body {
     transition: width 0.3s ease-in-out;
 }
 
-nav:hover {
+.navbar:hover {
     width: 35vh;
 }
 .navbar-lista{
