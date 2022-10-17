@@ -8,7 +8,10 @@ body {
     padding: 0;
 }
 .iniciar-sesion {
-	padding: 10px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.2rem;
+	padding-left: 36rem;
+	padding-right: 0rem;
     background-color: #ecd7f1;
     width: 100%;
 }
