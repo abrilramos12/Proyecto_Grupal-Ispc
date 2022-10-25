@@ -74,9 +74,11 @@ a {
 	background-color: rgb(244, 241, 245);
 	padding: 2em;
 	text-align: center;
-	margin: 1.875em auto;
-    width: 85%;
+    width: 90%;
     border-radius: 1.875em;
+	margin-top: 30px;
+	margin-left: 110px;
+	margin-right: 10px;
 	
 }
 .principal p{
