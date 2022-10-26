@@ -2,18 +2,11 @@
 *{
     font-family: 'Oxygen', sans-serif;
     margin: 0;
+	box-sizing: border-box;
 }
 
 body {
     padding: 0;
-}
-.iniciar-sesion {
-	padding-top: 0.5rem;
-	padding-bottom: 0.2rem;
-	padding-left: 36rem;
-	padding-right: 0rem;
-    background-color: #ecd7f1;
-    width: 100vw;
 }
 .navbar{
     display: flex;
@@ -70,18 +63,15 @@ a {
 	clear: left;
 }
 .principal {
-	background-color: rgb(244, 241, 245);
-	padding: 2em;
+	background-color: rgb(220, 192, 247);
+	padding: 2.5em;
 	text-align: center;
-	margin: 1.875em auto;
-    width: 85%;
+    width: 90%;
     border-radius: 1.875em;
+	margin-top: 30px;
+	margin-left: 110px;
+	margin-right: 10px;
 	
-}
-
-.logo {
-	display: flex;
-	justify-content: center;
 }
 .principal p{
 	margin: 0 0 1em;
