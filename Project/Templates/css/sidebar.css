@@ -12,7 +12,7 @@ body {
     display: flex;
     padding-bottom: 1rem;
     position: fixed;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     width: 5em;
     background-color: rgb(220, 192, 247);
