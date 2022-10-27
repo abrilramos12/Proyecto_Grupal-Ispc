@@ -162,3 +162,15 @@ a {
 	font-weight: bold;
 	margin-top: 0.625em;
 }
+
+.ruta{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 1.875em 1.25em;
+	box-sizing: border-box;
+	border: 0.125em solid #000000;
+	border-radius: 0.625em;
+}
