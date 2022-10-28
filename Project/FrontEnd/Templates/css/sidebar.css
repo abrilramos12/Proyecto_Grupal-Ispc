@@ -12,7 +12,7 @@ body {
     display: flex;
     padding-bottom: 1rem;
     position: fixed;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     width: 5em;
     background-color: rgb(220, 192, 247);
@@ -32,7 +32,8 @@ body {
 	padding-left: 1.5rem;
 }
 .navbar-lista-item{
-    margin: 2.3rem 0;
+    margin-top: 10px;
+	margin-bottom: 10px;
 }
 .bi {
     font-size: 1.4rem;
