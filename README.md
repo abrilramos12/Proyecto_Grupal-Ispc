@@ -13,7 +13,7 @@ La Web CapacIT brindará cursos de formación en áreas de programación, áreas
 
 ## Construido con 🛠️
 
-Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON
+Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON, MySQL
 
 
 
