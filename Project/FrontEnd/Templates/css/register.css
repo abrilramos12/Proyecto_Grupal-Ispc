@@ -2,11 +2,8 @@
 *{
     font-family: 'Oxygen', sans-serif;
 }
-html{
-    background-image: url("http://www.wallpaperhi.com/thumbnails/detail/20120605/death%20note%20l%20white%20background%201024x768%20wallpaper_www.wallpaperhi.com_11.jpg");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: right;
+body{
+    background-image: url(../img/imagenfondoregistro.jpeg);    
 }
 .container{
     margin: auto;
