@@ -112,7 +112,7 @@ label input:focus{
     justify-items: center;
     align-items: center;
     margin: auto;
-    background-color: #EA4C89;
+    background-color: #12b491;
     color: white;
     text-align: center;
     padding: 0.9375em;
@@ -124,12 +124,12 @@ label input:focus{
 .boton:hover{
     background-color: white;
     border: solid 0.0625em #f3f3f4;
-    box-shadow: 0 0 0.25em #d60366;
+    box-shadow: 0 0 0.25em #056b63;
     opacity:0.75;
     color:#8b8b8b
 }
 .modo{
-    background-color: #EA4C89;
+    background-color: #3dd1c5;
     color: white;
     padding: 0.625em;
     border: none;
@@ -140,10 +140,21 @@ label input:focus{
 .modo:hover{
     background-color: white;
     border: solid 0.0625em #f3f3f4;
-    box-shadow: 0 0 0.25em #d60366;
+    box-shadow: 0 0 0.25em #3dd1c5;
     opacity:0.75;
     color:#8b8b8b
 }
 .recuperar-contra{
     text-decoration: underline;
+}
+.ruta{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	vertical-align: top;
+	margin: 0 1%;
+	padding: 1.em 1.em;
+	box-sizing: border-box;
+	border: 0.125em solid #000000;
+	border-radius: 0.625em;
 }

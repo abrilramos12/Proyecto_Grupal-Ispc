@@ -15,7 +15,7 @@ body {
     height: 100%;
     flex-direction: column;
     width: 5em;
-    background-color: rgb(220, 192, 247);
+    background-color: rgb(99, 199, 199);
     overflow: hidden;
     left: 0;
     top: 0;
@@ -64,7 +64,7 @@ a {
 	clear: left;
 }
 .principal {
-	background-color: rgb(220, 192, 247);
+	background-color: rgb(50, 153, 148);
 	padding: 2.5em;
 	text-align: center;
     width: 90%;
@@ -166,8 +166,7 @@ a {
 
 .ruta{
 	display: inline-block;
-	text-align: center;
-	width: 30%;
+	width: 60%;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 1.875em 1.25em;
