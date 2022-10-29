@@ -13,16 +13,17 @@ La Web CapacIT brindará cursos de formación en áreas de programación, áreas
 
 ## Construido con 🛠️
 
-Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON
+Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON, MySQL
 
 
 
 ## Wiki 📖
 
-en nuestra [Wiki]( https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki ) se puede consultar Meeting realizadas y el detalle de Proyecto a realizar
+en nuestra [Wiki]( https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki ) puede consultar:
 
-https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki/Proyecto-Integrador--M%C3%93DULO-FULL-STACK
+  * Meeting realizadas : https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki/Reuniones
 
+  * Detalle de Proyecto a realizar: https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki/Proyecto-Integrador--M%C3%93DULO-FULL-STACK
 
 
 ## Autores ✒️
