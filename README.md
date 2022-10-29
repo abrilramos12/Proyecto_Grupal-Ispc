@@ -23,7 +23,7 @@ en nuestra [Wiki]( https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki )
 
 se puede consultar Meeting realizadas : https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki/Reuniones
 
-y el detalle de Proyecto a realizar: 
+y el detalle de Proyecto a realizar: https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki/Proyecto-Integrador--M%C3%93DULO-FULL-STACK
 
 
 ## Autores ✒️
