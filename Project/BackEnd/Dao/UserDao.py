@@ -1,10 +1,7 @@
-import sys
-sys.path.append('./Conexion')
-from Conexion.Connection import Connection, user, password, host, database, port
-
+from Conexion.Connection import Connection, config
 from mysql.connector import Error
 
-connection = Connection(user, password, host, database, port)
+connection = Connection(**config)
 
 def connect_validation():
         if connection.db.is_connected():
@@ -17,8 +14,8 @@ class UserDao:
     def __init__(self):
         pass
     
-    def save_user():
-        sql = f"INSERT INTO user VALUES ('1','Nicolás','Ramos', 'jnramos','jnicolas.ramos10@gmail.com','1234', 1 , 'ADMIN', NULL, NULL, NULL))"
+    def save_user(self):
+        sql = f"INSERT INTO user VALUES ('1','Nicolás','Ramos', 'jnramos','jnicolas.ramos10@gmail.com','1234', 1 , 'ADMIN', NULL, NULL, NULL)"
         try:
             connection.cursor.execute(sql)
             connection.db.commit()
@@ -29,7 +26,7 @@ class UserDao:
             connect_validation()
                 
     
-    def find_user(id):
+    def find_user(self,id):
         sql = f"SELECT * FROM user WHERE id_user = '{id}'"
         try:
             connection.cursor.execute(sql)
@@ -45,9 +42,3 @@ class UserDao:
 
     def delete_user():
         pass
-
-    
-  
-user_dao = UserDao()
-
-user_dao.save_user()
