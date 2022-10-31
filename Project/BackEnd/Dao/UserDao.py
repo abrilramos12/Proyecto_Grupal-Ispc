@@ -1,6 +1,8 @@
-from Conexion import Connection, user, password, host, database, port
+import sys
+sys.path.append('./Conexion')
+from Conexion.Connection import Connection, user, password, host, database, port
+
 from mysql.connector import Error
-from Entitys import User
 
 connection = Connection(user, password, host, database, port)
 
@@ -15,18 +17,19 @@ class UserDao:
     def __init__(self):
         pass
     
-    def create_user(User):
-        sql = f"INSERT INTO user VALUES ())"
+    def save_user():
+        sql = f"INSERT INTO user VALUES ('1','Nicolás','Ramos', 'jnramos','jnicolas.ramos10@gmail.com','1234', 1 , 'ADMIN', NULL, NULL, NULL))"
         try:
             connection.cursor.execute(sql)
             connection.db.commit()
+            print('Guardado correcto')
         except Error as e:
             print(f'Error de insercion de usuario. Detalle: {e.msg}')
         finally:
             connect_validation()
                 
     
-    def search_user(id):
+    def find_user(id):
         sql = f"SELECT * FROM user WHERE id_user = '{id}'"
         try:
             connection.cursor.execute(sql)
@@ -45,3 +48,6 @@ class UserDao:
 
     
   
+user_dao = UserDao()
+
+user_dao.save_user()

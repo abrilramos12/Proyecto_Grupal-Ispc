@@ -15,36 +15,21 @@ CREATE SCHEMA IF NOT EXISTS `Capacit` DEFAULT CHARACTER SET utf8 ;
 USE `Capacit` ;
 
 -- -----------------------------------------------------
--- Table `Capacit`.`Role`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `Capacit`.`Role` (
-  `role_id` INT NOT NULL,
-  `name` VARCHAR(255) NOT NULL,
-  PRIMARY KEY (`role_id`));
-
-
--- -----------------------------------------------------
 -- Table `Capacit`.`User`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Capacit`.`User` (
   `id_user` VARCHAR(256) NOT NULL,
-  `first_name` VARCHAR(45) NULL,
-  `last_name` VARCHAR(45) NULL,
+  `first_name` VARCHAR(45) NOT NULL,
+  `last_name` VARCHAR(45) NOT NULL,
   `username` VARCHAR(16) NOT NULL,
   `email` VARCHAR(255) NOT NULL,
   `password` VARCHAR(32) NOT NULL,
   `active` TINYINT NOT NULL DEFAULT 1,
+  `role` VARCHAR(45) NOT NULL,
   `create_time` DATETIME NULL,
   `user_git` VARCHAR(128) NULL,
   `user_linkedin` VARCHAR(128) NULL,
-  `Role_role_id` INT NOT NULL,
-  PRIMARY KEY (`id_user`, `Role_role_id`),
-  INDEX `fk_User_Role1_idx` (`Role_role_id` ASC) VISIBLE,
-  CONSTRAINT `fk_User_Role1`
-    FOREIGN KEY (`Role_role_id`)
-    REFERENCES `Capacit`.`Role` (`role_id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
+  PRIMARY KEY (`id_user`));
 
 
 -- -----------------------------------------------------
