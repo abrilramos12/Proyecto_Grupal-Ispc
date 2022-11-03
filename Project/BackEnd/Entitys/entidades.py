@@ -11,15 +11,20 @@ class User:
         self.user_git = user_git
         self.user_linkedin = user_linkedin
 
-    def marcar_favoritos(self):
+    def bookmark(self):
 
-    def dejar_comentarios(self):
+    def let_comment(self):
 
-    def registrarse(self):
+    def register(self):
+
+    def login(self):
+
+    def logout(self):
 
 class Teacher(User):
 
-    def cargar_videos(self):
+    def upload_videos(self):
 
 
 class Student(User):
+
