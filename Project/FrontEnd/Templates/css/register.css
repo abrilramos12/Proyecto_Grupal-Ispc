@@ -2,9 +2,10 @@
 *{
     font-family: 'Oxygen', sans-serif;
 }
-body{
-    background-image: url(../img/imagenfondoregistro.jpeg);    
-}
+/*body{
+    background-image: url(../img/imagenfondoregistro.jpeg); 
+}*/  
+
 .container{
     margin: auto;
     display: flex;

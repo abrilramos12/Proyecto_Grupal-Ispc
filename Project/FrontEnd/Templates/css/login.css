@@ -148,3 +148,13 @@ label input:focus{
     opacity:0.75;
     color:#8b8b8b
 }
+.registrarse{
+    margin: auto;
+    display: flex;
+    flex-direction: column;/*separado y ordenado verticalmente*/
+    align-items: center;
+    justify-content: center;
+    border: none;
+    justify-items: center;
+   
+}
