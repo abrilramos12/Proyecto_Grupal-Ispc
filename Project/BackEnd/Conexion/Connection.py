@@ -12,3 +12,6 @@ class Connection:
         self.db = mysql.connector.connect(**config)
         self.cursor = self.db.cursor()
         print('Conexión establecida')
+        
+        
+        
