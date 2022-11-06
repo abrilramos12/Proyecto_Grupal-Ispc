@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+:root{
+    --primary-color:white;
+    --secondary-color:#f3f3f4;
+
+    @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 *{
     font-family: 'Oxygen', sans-serif;
 }
@@ -22,7 +26,7 @@
 }
 .google-btn{
     background-color: #1A73E8;
-    color: white;
+    color: var(--primary-color);
     border: none;
     border-radius: 0.3125em;
     height: 2.5em;
@@ -38,7 +42,7 @@
 }
 .google-btn picture{
     width: 2.1875em;
-    background-color: white;
+    background-color: var(--primary-color);
     height: 2.1875em;
     border-radius: 0.125em;
     display: flex;
@@ -83,7 +87,7 @@ label span{
 }
 label input{
     width: 100%;
-    background-color: #f3f3f4;
+    background-color: var(--secondary-color);
     border: none;
     padding: 0.625em 1.25em;
     border-radius: 0.625em;
@@ -92,14 +96,14 @@ label input{
     transition: background-color 0.5s,border 0.2s, box-shadow 0.2s;
 }
 label input:hover{
-    background-color: white;
-    border: solid 0.0625em #f3f3f4;
+    background-color: var(--primary-color);
+    border: solid 0.0625em var(--secondary-color);
     box-shadow: 0 0 0.25em #d60366;
 }
 
 label input:focus{
-    background-color: white;
-    border: solid 0.0625em #f3f3f4;
+    background-color: var(--primary-color);
+    border: solid 0.0625em var(--secondary-color);
     box-shadow: 0 0 0.25em #d60366;
 }
 
@@ -114,7 +118,7 @@ label input:focus{
     align-items: center;
     margin: auto;
     background-color: #12b491;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     padding: 0.9375em;
     border: none;
@@ -123,15 +127,15 @@ label input:focus{
     cursor:pointer;
 }
 .boton:hover{
-    background-color: white;
-    border: solid 0.0625em #f3f3f4;
+    background-color:var(--primary-color);
+    border: solid 0.0625em var(--secondary-color);
     box-shadow: 0 0 0.25em #056b63;
     opacity:0.75;
     color:#8b8b8b
 }
 .modo{
     background-color: #3dd1c5;
-    color: white;
+    color:var(--primary-color);
     padding: 0.625em;
     border: none;
     border-radius: 0.625em;
@@ -139,7 +143,7 @@ label input:focus{
     cursor:pointer;
 }
 .modo:hover{
-    background-color: white;
+    background-color: var(--primary-color);
     border: solid 0.0625em #f3f3f4;
     box-shadow: 0 0 0.25em #3dd1c5;
     opacity:0.75;
