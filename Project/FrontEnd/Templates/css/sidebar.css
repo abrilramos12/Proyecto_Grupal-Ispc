@@ -1,3 +1,6 @@
+:root{
+    --primary-color:rgb(50, 153, 148);
+    --secondary-color:rgb(99, 199, 199);
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 *{
     font-family: 'Oxygen', sans-serif;
@@ -15,7 +18,7 @@ body {
     height: 100%;
     flex-direction: column;
     width: 5em;
-    background-color: rgb(99, 199, 199);
+    background-color: var(--secondary-color);
     overflow: hidden;
     left: 0;
     top: 0;
@@ -64,7 +67,7 @@ a {
 	clear: left;
 }
 .principal {
-	background-color: rgb(50, 153, 148);
+	background-color: var(--primary-color);
 	padding: 2.5em;
 	text-align: center;
     width: 90%;

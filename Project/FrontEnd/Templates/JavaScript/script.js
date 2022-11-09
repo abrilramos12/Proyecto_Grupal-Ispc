@@ -10,6 +10,15 @@ function validateForm() {
         alert("Debe ingresar una contraseña");
         return false;
       }
-
   }
+
+function cambiarTitulo() {
+  const titulo = document.getElementById ("registro")
+  titulo.innerHTML = "¡Bienvenido!"
+}
+
+function cambiarTituloOriginal() {
+  const titulo2 = document.getElementById ("registro")
+  titulo2.innerHTML = "Sé parte de esta comunidad"
+}
   
