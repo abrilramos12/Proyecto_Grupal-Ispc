@@ -134,7 +134,7 @@ label input:focus{
     border: solid 0.0625em var(--secondary-color);
     box-shadow: 0 0 0.25em #056b63;
     opacity:0.75;
-    color:#8b8b8b
+    color: #000000;
 }
 .modo{
     background-color: #3dd1c5;
