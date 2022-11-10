@@ -98,7 +98,8 @@
             <div>
                 <label for="password">
                     <span>Password</span>
-                    <input type="password" name="password" id="password" required minlength="8" maxlength="15">
+                    <input type="password" name="password" id="password" required minlength="8" maxlength="15" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$  
+                    ">
                 </label>
             </div>
             <span>Recuérdame</span>
