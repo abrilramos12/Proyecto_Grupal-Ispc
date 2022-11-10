@@ -119,7 +119,7 @@ label input:focus{
     align-items: center;
     margin: auto;
     background-color: #12b491;
-    color: var(--primary-color);
+    color: #000000;
     text-align: center;
     padding: 0.9375em;
     border: none;
