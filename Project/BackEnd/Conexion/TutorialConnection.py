@@ -1,6 +1,6 @@
 """Este archivo esta creado como un totorial básico para establecer una conexión con la BBDD.
 Nota: Installar el modulo mysql-connector-python para evitar el error: Authentication plugin 'caching_sha2_password'
-Para ello ejecutar en consola: pip install mysql-connector-python."""
+Para ello ejecutar en consola: pip install mysql-connector-python"""
 
 import mysql.connector
 from mysql.connector import Error

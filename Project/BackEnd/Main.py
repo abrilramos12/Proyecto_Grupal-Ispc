@@ -9,18 +9,18 @@ user1 = User('1',   'Nicolás', 'Ramos', 'jnramos','jnicolas.ramos10@gmail.com',
 user_dao = UserDao()
 
 """ descomentar la siguiente linea para llamar al metodo guardar usuario """
-#user_dao.save_user(user1)
+# user_dao.save_user(user1)
 
 """ descomentar la siguiente linea para llamar al metodo buscar usuario """
-# user_dao.find_user(user1.id_user)
+# print(user_dao.find_user(user1.id_user))
 
 ''' Descomentar la siguiente linea para modificar el username del usuario.
     La variable new_username tiene el valor que se quiere actualizar en el atributo username de user1'''
-# new_username = 'Nikacin'
+# new_username = 'Nikachin'
 # user_dao.update_username(user1.id_user, new_username)
 
 '''descomentar la siguiente linea para borrar usuario'''
-user_dao.delete_user(user1.id_user)
+# user_dao.delete_user(user1.id_user)
 
 
 
