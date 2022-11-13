@@ -150,9 +150,7 @@ label input:focus{
     opacity:0.75;
     color:#8b8b8b
 }
-.recuperar-contra{
-    text-decoration: underline;
-}
+
 .ruta{
 	display: inline-block;
 	text-align: center;

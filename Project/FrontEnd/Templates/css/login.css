@@ -115,6 +115,12 @@ label input:focus{
     width: 1.25em;
     flex-direction: row;
 }
+
+.recuperar-contra{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
 .boton{
     display: flex;
     justify-items: center;
