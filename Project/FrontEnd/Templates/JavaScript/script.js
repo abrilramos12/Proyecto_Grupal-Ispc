@@ -12,6 +12,10 @@ function validateForm() {
       }
   }
 
+  function onEnviar() {
+    alert("Se ha registrado con éxito")
+  }
+
 function cambiarTitulo() {
   const titulo = document.getElementById ("registro")
   titulo.innerHTML = "¡Bienvenido!"
