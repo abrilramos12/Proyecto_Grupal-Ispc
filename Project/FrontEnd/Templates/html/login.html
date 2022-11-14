@@ -8,8 +8,8 @@
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
@@ -22,8 +22,8 @@
                 <span> </span>
                 <hr>
             </div>
-        </div>    
-        <div>   
+        </div>
+        <div>
             <nav class="navbar">
                 <ul class="navbar-lista">
                     <li class="navbar-lista-item">
@@ -32,7 +32,7 @@
                         </i>
                     </li>
                     <li class="navbar-lista-item">
-                        <i class="bi bi-journal-bookmark-fill"> 
+                        <i class="bi bi-journal-bookmark-fill">
                             <a href="course.html">Cursos</a>
                         </i>
                     </li>
@@ -52,10 +52,10 @@
                         </i>
                     </li>
                     <li class="navbar-lista-item">
-                        <i class="bi bi-file-earmark-person-fill"> 
+                        <i class="bi bi-file-earmark-person-fill">
                             <a href="perfil.html">Perfil</a>
                         </i>
-                    </li>                    
+                    </li>
                     <li class="navbar-lista-item">
                         <i class="bi bi-book-half">
                             <a href="news.html">Noticias</a>
@@ -68,7 +68,6 @@
                     </li>
                 </ul>
             </nav>
-
         </div>
     </header>
     <div>
@@ -79,12 +78,13 @@
             </label>
             <label for="password">
                 <span>Password</span>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password"  minlength="8" maxlength="15" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
             </label>
             <label for="boton">
                 <button class="boton" type="submit">Ingresar</button>
             </label>
         </form><br>
+        <div class="recuperar-contra"><a href="">¿Has olvidado la contraseña?</a></div>
         <div class="registrarse">¿Todavía no te registraste?</div>
         <div class="registrarse"><a href="register.html">Registrarme</a> </div>
     </div>

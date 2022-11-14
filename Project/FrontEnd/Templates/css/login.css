@@ -1,6 +1,7 @@
 :root{
     --primary-color:white;
     --secondary-color:#f3f3f4;
+}
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 *{
     font-family: 'Oxygen', sans-serif;
@@ -114,13 +115,19 @@ label input:focus{
     width: 1.25em;
     flex-direction: row;
 }
+
+.recuperar-contra{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
 .boton{
     display: flex;
     justify-items: center;
     align-items: center;
     margin: auto;
     background-color: #12b491;
-    color: var(--primary-color);
+    color: #000000;
     text-align: center;
     padding: 0.9375em;
     border: none;
@@ -133,7 +140,7 @@ label input:focus{
     border: solid 0.0625em var(--secondary-color);
     box-shadow: 0 0 0.25em #056b63;
     opacity:0.75;
-    color:#8b8b8b
+    color: #000000;
 }
 .modo{
     background-color: #3dd1c5;
