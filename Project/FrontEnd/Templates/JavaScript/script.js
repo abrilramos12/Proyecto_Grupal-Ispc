@@ -25,4 +25,11 @@ function cambiarTituloOriginal() {
   const titulo2 = document.getElementById ("registro")
   titulo2.innerHTML = "Sé parte de esta comunidad"
 }
+
+function toggleMenu(){
+  let navigation = document.querySelector('.navbar');
+  let toggle = document.querySelector('.toggle');
+  navigation.classList.toggle('active');
+  toggle.classList.toggle('active');
+}
   

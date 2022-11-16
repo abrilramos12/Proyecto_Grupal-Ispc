@@ -14,62 +14,62 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h3> </h3>
-            <div class="separator">
-                <hr>
-                <span> </span>
-                <hr>
-            </div>
+
+    <div class="container">
+        <h3> </h3>
+        <div class="separator">
+            <hr>
+            <span> </span>
+            <hr>
         </div>
-        <div>
-            <nav class="navbar">
-                <ul class="navbar-lista">
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-house-door">
-                            <a href="index.html">Inicio</a>
-                        </i>
-                    </li>
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-journal-bookmark-fill">
-                            <a href="course.html">Cursos</a>
-                        </i>
-                    </li>
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-signpost-2">
-                            <a href="roadmap.html">Ruta</a>
-                        </i>
-                    </li>
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-file-person">
-                            <a href="register.html">Registrarse</a>
-                        </i>
-                    </li>
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-file-person-fill">
-                            <a href="login.html">Login</a>
-                        </i>
-                    </li>
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-file-earmark-person-fill">
-                            <a href="perfil.html">Perfil</a>
-                        </i>
-                    </li>
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-book-half">
-                            <a href="news.html">Noticias</a>
-                        </i>
-                    </li>
-                    <li class="navbar-lista-item">
-                        <i class="bi bi-chat-square-text-fill">
-                            <a href="foro.html">Foro</a>
-                        </i>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    </div>
+    <div>
+        <nav class="navbar">
+            <ul class="navbar-lista">
+                <li class="navbar-lista-item">
+                    <i class="bi bi-house-door">
+                        <a href="index.html">Inicio</a>
+                    </i>
+                </li>
+                <li class="navbar-lista-item">
+                    <i class="bi bi-journal-bookmark-fill">
+                        <a href="course.html">Cursos</a>
+                    </i>
+                </li>
+                <li class="navbar-lista-item">
+                    <i class="bi bi-signpost-2">
+                        <a href="roadmap.html">Ruta</a>
+                    </i>
+                </li>
+                <li class="navbar-lista-item">
+                    <i class="bi bi-file-person">
+                        <a href="register.html">Registrarse</a>
+                    </i>
+                </li>
+                <li class="navbar-lista-item">
+                    <i class="bi bi-file-person-fill">
+                        <a href="login.html">Login</a>
+                    </i>
+                </li>
+                <li class="navbar-lista-item">
+                    <i class="bi bi-file-earmark-person-fill">
+                        <a href="perfil.html">Perfil</a>
+                    </i>
+                </li>
+                <li class="navbar-lista-item">
+                    <i class="bi bi-book-half">
+                        <a href="news.html">Noticias</a>
+                    </i>
+                </li>
+                <li class="navbar-lista-item">
+                    <i class="bi bi-chat-square-text-fill">
+                        <a href="foro.html">Foro</a>
+                    </i>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <div>
         <form name="myForm" onsubmit="return validateForm()" method="post">
             <label for="username">
@@ -78,7 +78,8 @@
             </label>
             <label for="password">
                 <span>Password</span>
-                <input type="password" name="password" id="password"  minlength="8" maxlength="15" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                <input type="password" name="password" id="password" minlength="8" maxlength="15"
+                    pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
             </label>
             <label for="boton">
                 <button class="boton" type="submit">Ingresar</button>
@@ -88,14 +89,17 @@
         <div class="registrarse">¿Todavía no te registraste?</div>
         <div class="registrarse"><a href="register.html">Registrarme</a> </div>
     </div>
+    
+    <div class="toggle" onclick= "toggleMenu()"">
+        <span><i class="bi bi-list"></i></span>
+    </div>
+
+    <footer>
+        <img src="../img/logo.jfif" class="img-fluid">
+        <p class="copyright">&copy Copyright CapacIT</p>
+    </footer>
     <script src="../JavaScript/script.js"></script>
 </body>
-<footer>
-    <img src="../img/logo.jfif" class="img-fluid">
-    <p class="copyright">&copy Copyright CapacIT</p>
-</footer>
-</body>
 
-</html>
 
 </html>

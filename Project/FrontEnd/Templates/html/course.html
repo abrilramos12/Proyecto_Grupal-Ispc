@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,12 @@
 
     <title>Courses</title>
     <link rel="stylesheet" href="reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
+
 <body>
     <div>
         <nav class="navbar">
@@ -21,7 +24,7 @@
                     </i>
                 </li>
                 <li class="navbar-lista-item">
-                    <i class="bi bi-journal-bookmark-fill"> 
+                    <i class="bi bi-journal-bookmark-fill">
                         <a href="course.html">Cursos</a>
                     </i>
                 </li>
@@ -41,10 +44,10 @@
                     </i>
                 </li>
                 <li class="navbar-lista-item">
-                    <i class="bi bi-file-earmark-person-fill"> 
+                    <i class="bi bi-file-earmark-person-fill">
                         <a href="perfil.html">Perfil</a>
                     </i>
-                </li>                    
+                </li>
                 <li class="navbar-lista-item">
                     <i class="bi bi-book-half">
                         <a href="news.html">Noticias</a>
@@ -58,32 +61,37 @@
             </ul>
         </nav>
     </div>
-</header>
-<main>
-    <section class="principal">
-        <div > 
-                    <img src="../img/gatuitos.jfif" class="img-fluid"> <br><br>
-                    <p class="cursos-descripcion">Cursos Gratuitos <a href="login.html"></a></p>
-        </div>
-    </section>
-    <section class="principal">
-        <div>
-                 <img src="../img/pagos.jfif" class="img-fluid"><br><br>
-                 <p class="cursos-descripcion">Cursos Pagos<a href="login.html"></a></p>
-        </div>
-    </section>
-    <section class="principal">
-        <div>
-                    <img src="../img/niños.jfif" class="img-fluid"><br><br>
-                    <p class="cursos-descripcion">Cursos para niños<a href="login.html"></a></p>
-        </div>
-    </section>
-</main>
-<footer>
-    <img src="../img/logo.jfif" class="img-fluid">
-    <p class="copyright">
-        &copy Copiright CapacIT
-    </p>
-</footer>
+    
+    <main>
+        <section class="principal">
+            <div>
+                <img src="../img/gatuitos.jfif" class="img-fluid"> <br><br>
+                <p class="cursos-descripcion">Cursos Gratuitos <a href="login.html"></a></p>
+            </div>
+        </section>
+        <section class="principal">
+            <div>
+                <img src="../img/pagos.jfif" class="img-fluid"><br><br>
+                <p class="cursos-descripcion">Cursos Pagos<a href="login.html"></a></p>
+            </div>
+        </section>
+        <section class="principal">
+            <div>
+                <img src="../img/niños.jfif" class="img-fluid"><br><br>
+                <p class="cursos-descripcion">Cursos para niños<a href="login.html"></a></p>
+            </div>
+        </section>
+    </main>
+    <div class="toggle" onclick="toggleMenu()"">
+    <span><i class=" bi bi-list"></i></span>
+    </div>
+    <footer>
+        <img src="../img/logo.jfif" class="img-fluid">
+        <p class="copyright">
+            &copy Copiright CapacIT
+        </p>
+    </footer>
+    <script src="../JavaScript/script.js"></script>
 </body>
+
 </html>
