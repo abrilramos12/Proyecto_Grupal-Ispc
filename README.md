@@ -36,6 +36,6 @@ VIDEO DE PRESENTACIÓN
 Video presentación del grupo: https://youtu.be/iT5mAPhwegA
 
 PÁGINA WEB
-http://capacit.great-site.net/html/
+https://capacit.great-site.net/html/
 
 
