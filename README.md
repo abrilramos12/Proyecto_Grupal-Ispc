@@ -32,4 +32,6 @@ en nuestra [Wiki]( https://github.com/abrilramos12/Proyecto_Grupal-Ispc/wiki ) p
 
 * Puede ver miembros de equipo en archivo "Miembros de equipo" (https://github.com/abrilramos12/Proyecto_Grupal-Ispc/blob/main/Documentacion/Miembros%20de%20equipo.txt)  
 
+* Video presentación del grupo: https://youtu.be/iT5mAPhwegA
+
 
