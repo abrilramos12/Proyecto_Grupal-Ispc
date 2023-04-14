@@ -23,16 +23,16 @@ ANGULAR
 
 en nuestra [Wiki]( ) puede consultar:
 
-  * Meeting realizadas : 
+  * Meeting realizadas : https://github.com/DaniBarrios22/Proyecto_Grupal-Ispc/wiki/Reuniones
 
-  * Detalle de Proyecto a realizar: 
+  * Detalle de Proyecto a realizar: https://github.com/DaniBarrios22/Proyecto_Grupal-Ispc/wiki/Proyecto-Final
 
 
 ## Autores ✒️
 
 * **Estudiantes TSDWAD de ISPC**
 
-* Puede ver miembros de equipo en archivo "Miembros de equipo" 
+* Puede ver miembros de equipo en : https://github.com/DaniBarrios22/Proyecto_Grupal-Ispc/wiki/Miembros-Equipo)
 
 
 
