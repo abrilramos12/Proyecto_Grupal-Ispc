@@ -38,4 +38,5 @@ Video presentación del grupo: https://youtu.be/iT5mAPhwegA
 PÁGINA WEB
 https://capacit.great-site.net/html/
 
-
+PORTFOLIO GRUPAL (2do cuatrimestre 2022)
+https://portafoliogrupal.great-site.net/
