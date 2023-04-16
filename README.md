@@ -13,9 +13,14 @@ La Web CapacIT brindará cursos de formación en áreas de programación, áreas
 
 ## Construido con 🛠️
 
-Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON, MySQL
+SPA (Single Page Application) con ANGULAR
 
-ANGULAR
+POO con Django-Python
+
+
+
+Proyecto anterior: Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON, MySQL
+
 
 
 
@@ -33,6 +38,10 @@ en nuestra [Wiki]( ) puede consultar:
 * **Estudiantes TSDWAD de ISPC**
 
 * Puede ver miembros de equipo en : https://github.com/DaniBarrios22/Proyecto_Grupal-Ispc/wiki/Miembros-Equipo)
+
+
+
+
 
 
 
