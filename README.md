@@ -38,11 +38,6 @@ en nuestra [Wiki]( ) puede consultar:
 
 
 
-
-
-
-
-
 # capacIT.com  (Segundo cuatrimestre 2022, ISPC)
 
 VIDEO DE PRESENTACIÓN
