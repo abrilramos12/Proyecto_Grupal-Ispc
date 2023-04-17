@@ -15,9 +15,7 @@ SPA (Single Page Application) con ANGULAR
 POO con Django-Python
 
 
-
 Proyecto anterior: Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON, MySQL
-
 
 
 
