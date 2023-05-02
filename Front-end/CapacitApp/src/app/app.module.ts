@@ -8,6 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 
@@ -16,7 +17,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     FooterComponent,
     RegisterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
