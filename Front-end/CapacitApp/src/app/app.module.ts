@@ -18,7 +18,11 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      {path: 'register', component: RegisterComponent},
+      {path: 'carrito', component: CarritoComponent},
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]
