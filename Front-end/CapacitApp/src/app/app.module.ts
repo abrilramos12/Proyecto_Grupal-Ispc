@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { CarritoComponent } from './carrito/carrito.component';
+import { RouterModule } from '@angular/router';
 
 
 
