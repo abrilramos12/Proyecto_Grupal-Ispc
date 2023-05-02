@@ -8,6 +8,8 @@ import { RegisterComponent } from './register/register.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CursosComponent } from './cursos/cursos.component';
+import { RutasComponent } from './rutas/rutas.component';
 
 
 
@@ -16,7 +18,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     FooterComponent,
     RegisterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CursosComponent,
+    RutasComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +28,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     RouterModule.forRoot([
       {path: 'register', component: RegisterComponent},
       {path: 'carrito', component: CarritoComponent},
-      {path: '**', component: PageNotFoundComponent}
+      {path: '**', component: PageNotFoundComponent},
+      {path: 'cursos', component: CursosComponent},
+      {path: 'rutas', component: RutasComponent}
+
     ]),
   ],
   providers: [],
