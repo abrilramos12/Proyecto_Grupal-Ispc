@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { RouterModule } from '@angular/router';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -14,7 +15,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     AppComponent,
     FooterComponent,
-    RegisterComponent
+    RegisterComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +24,7 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot([
       {path: 'register', component: RegisterComponent},
       {path: 'carrito', component: CarritoComponent},
+      {path: '**', component: PageNotFoundComponent}
     ]),
   ],
   providers: [],
