@@ -9,6 +9,7 @@ import { CarritoComponent } from './carrito/carrito.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 
@@ -18,7 +19,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     FooterComponent,
     RegisterComponent,
     PageNotFoundComponent,
-    NavbarComponent
+    NavbarComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
