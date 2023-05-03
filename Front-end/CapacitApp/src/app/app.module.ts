@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { NavbarComponent } from './navbar/navbar.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { HomeComponent } from './home/home.component';
+import { NoticiasComponent } from './noticias/noticias.component';
 
 
 
@@ -23,7 +24,8 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     PerfilComponent,
     CarritoComponent,
-    HomeComponent
+    HomeComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
