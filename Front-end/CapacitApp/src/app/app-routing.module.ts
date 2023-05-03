@@ -5,6 +5,7 @@ import { CarritoComponent } from './carrito/carrito.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { NoticiasComponent } from './noticias/noticias.component';
 
 const routes: Routes = [
   {path: '', redirectTo:"/home", pathMatch: "full"},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'perfil', component: PerfilComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'cart', component: CarritoComponent},
+  {path: 'news', component: NoticiasComponent},
   {path: '**', component: PageNotFoundComponent},
 ];
 

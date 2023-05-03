@@ -1,0 +1,6 @@
+:root {
+    --primary-color: rgb(50, 153, 148);
+    --secondary-color: rgb(99, 199, 199);
+}
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
