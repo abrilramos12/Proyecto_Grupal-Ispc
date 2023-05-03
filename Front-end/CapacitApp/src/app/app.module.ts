@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -20,16 +21,13 @@ import { PerfilComponent } from './perfil/perfil.component';
     RegisterComponent,
     PageNotFoundComponent,
     NavbarComponent,
-    PerfilComponent
+    PerfilComponent,
+    CarritoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([
-      {path: 'register', component: RegisterComponent},
-      {path: 'carrito', component: CarritoComponent},
-      {path: '**', component: PageNotFoundComponent}
-    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]
