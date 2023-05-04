@@ -1,4 +1,4 @@
-# capacIT.com       
+# CapacIT.com       
 
 (Proyecto Integrador - ISPC)
 
@@ -20,11 +20,11 @@ Proyecto anterior: Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON
 
 ## Wiki 📖
 
-en nuestra [Wiki]( ) puede consultar:
+En nuestra [Wiki]( ) pueden consultar:
 
   * Meeting realizadas : https://github.com/DaniBarrios22/Proyecto_Grupal-Ispc/wiki/Reuniones
 
-  * Detalle de Proyecto a realizar: https://github.com/DaniBarrios22/Proyecto_Grupal-Ispc/wiki/Proyecto-Final
+  * Detalle del Proyecto a realizar: https://github.com/DaniBarrios22/Proyecto_Grupal-Ispc/wiki/Proyecto-Final
 
 
 ## Autores ✒️
@@ -35,7 +35,7 @@ en nuestra [Wiki]( ) puede consultar:
 
 
 
-# capacIT.com  (Segundo cuatrimestre 2022, ISPC)
+# CapacIT.com  (Segundo cuatrimestre 2022, ISPC)
 
 VIDEO DE PRESENTACIÓN
 Video presentación del grupo: https://youtu.be/iT5mAPhwegA
