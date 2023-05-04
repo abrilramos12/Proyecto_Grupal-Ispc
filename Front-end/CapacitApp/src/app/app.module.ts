@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
+import { HeaderComponent } from './header/header.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -20,6 +21,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
     AppComponent,
     FooterComponent,
     RegisterComponent,
+    HeaderComponent,
     PageNotFoundComponent,
     NavbarComponent,
     PerfilComponent,
