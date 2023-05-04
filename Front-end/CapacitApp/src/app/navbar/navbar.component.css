@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+
+*{
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    padding-bottom: 1rem;
+    position: fixed;
+    height: 100%;
+    flex-direction: column;
+    width: 5em;
+    background-color: var(--secondary-color) ;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar:hover,
+.navbar.active
+{
+    width: 35vh;
+}
+.navbar-lista{
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+	padding-left: 1.5rem;
+}
+.navbar-lista-item{
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bi {
+    font-size: 1.4rem;
+    padding: 0.625em;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+	padding: 2%;
+    color: black;
+    outline: transparent solid 0.125em;
+    outline-offset: 0.125em;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+a:hover{
+    color: blue;
+}
