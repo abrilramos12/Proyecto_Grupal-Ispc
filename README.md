@@ -35,7 +35,7 @@ En nuestra [Wiki]( ) pueden consultar:
 
 
 
-# CapacIT.com  (Segundo cuatrimestre 2022, ISPC)
+# CapacIT.com
 
 VIDEO DE PRESENTACIÓN
 Video presentación del grupo: https://youtu.be/iT5mAPhwegA
