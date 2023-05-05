@@ -6,6 +6,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HomeComponent } from './home/home.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { CursosComponent } from './cursos/cursos.component';
+import { RutasComponent } from './rutas/rutas.component';
 
 const routes: Routes = [
   {path: '', redirectTo:"/home", pathMatch: "full"},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path: 'register', component: RegisterComponent},
   {path: 'cart', component: CarritoComponent},
   {path: 'news', component: NoticiasComponent},
+  {path: 'course', component: CursosComponent},
+  {path: 'routes', component: RutasComponent},
   {path: '**', component: PageNotFoundComponent},
 ];
 

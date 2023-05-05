@@ -7,12 +7,13 @@ import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
 import { HeaderComponent } from './header/header.component';
 import { CarritoComponent } from './carrito/carrito.component';
-import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { HomeComponent } from './home/home.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { CursosComponent } from './cursos/cursos.component';
+import { RutasComponent } from './rutas/rutas.component';
 
 
 
@@ -27,7 +28,9 @@ import { NoticiasComponent } from './noticias/noticias.component';
     PerfilComponent,
     CarritoComponent,
     HomeComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    CursosComponent,
+    RutasComponent
   ],
   imports: [
     BrowserModule,
