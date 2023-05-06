@@ -1,0 +1,19 @@
+<div>
+  <form name="myForm" onsubmit="return validateForm()" method="post">
+      <label for="username">
+          <span>Username</span>
+          <input autoFocus type="text" name="username" id="username">
+      </label>
+      <label for="password">
+          <span>Password</span>
+          <input type="password" name="password" id="password" minlength="8" maxlength="15"
+              pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+      </label>
+      <label for="boton">
+          <button class="boton" type="submit">Ingresar</button>
+      </label>
+  </form><br>
+  <div class="recuperar-contra"><a href="">¿Has olvidado la contraseña?</a></div>
+  <div class="registrarse">¿Todavía no te registraste?</div>
+  <div class="registrarse"><a href="register.html">Registrarme</a> </div>
+</div>
