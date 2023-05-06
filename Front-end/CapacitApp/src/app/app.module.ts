@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { RegisterComponent } from './register/register.component';
+import { HeaderComponent } from './header/header.component';
 import { CarritoComponent } from './carrito/carrito.component';
-import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { HomeComponent } from './home/home.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+import { CursosComponent } from './cursos/cursos.component';
+import { RutasComponent } from './rutas/rutas.component';
 
 
 
@@ -18,18 +22,19 @@ import { PerfilComponent } from './perfil/perfil.component';
     AppComponent,
     FooterComponent,
     RegisterComponent,
+    HeaderComponent,
     PageNotFoundComponent,
     NavbarComponent,
-    PerfilComponent
+    PerfilComponent,
+    CarritoComponent,
+    HomeComponent,
+    NoticiasComponent,
+    CursosComponent,
+    RutasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([
-      {path: 'register', component: RegisterComponent},
-      {path: 'carrito', component: CarritoComponent},
-      {path: '**', component: PageNotFoundComponent}
-    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]

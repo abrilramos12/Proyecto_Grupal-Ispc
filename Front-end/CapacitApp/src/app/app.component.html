@@ -1,12 +1,11 @@
-<h1>HOME</h1>
-<nav>
-    <a class="button" routerLink="/register">Register</a> |
-    <a class="button" routerLink="/login">Login</a> |
-    <a class="button" routerLink="/carrito">Carrito</a>
-</nav>
+<app-header></app-header>
 
 <app-navbar></app-navbar>
 
-<router-outlet></router-outlet>
+<section class="dashboard">
+    <router-outlet></router-outlet>
+</section>
 
-<app-footer></app-footer>
+<div class="fixed-bottom">
+    <app-footer></app-footer>
+</div>
