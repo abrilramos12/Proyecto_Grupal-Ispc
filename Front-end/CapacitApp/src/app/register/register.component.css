@@ -8,8 +8,8 @@
     font-family: 'Oxygen', sans-serif;
 }
 /*body{
-    background-image: url(../img/imagenfondoregistro.jpeg); 
-}*/  
+    background-image: url(../img/imagenfondoregistro.jpeg);
+}*/
 
 .container{
     margin: auto;
@@ -78,7 +78,7 @@ form{
 }
 
 label{
-    width: 100%; 
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.3125em;
@@ -118,8 +118,8 @@ label input:focus{
     justify-items: center;
     align-items: center;
     margin: auto;
-    background-color: #12b491;
-    color: #000000;
+    background-color: rgb(50, 153, 148);
+    color: #ffffff;
     text-align: center;
     padding: 0.9375em;
     border: none;
@@ -131,8 +131,8 @@ label input:focus{
     background-color:var(--primary-color);
     border: solid 0.0625em var(--secondary-color);
     box-shadow: 0 0 0.25em #056b63;
-    opacity:0.75;
-    color: #000000;
+    opacity:0.9;
+    color: #ffffff;
 }
 .modo{
     background-color: #3dd1c5;

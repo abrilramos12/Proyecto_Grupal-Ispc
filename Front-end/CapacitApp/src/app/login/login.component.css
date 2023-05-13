@@ -10,9 +10,9 @@
 form{
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   gap: 1.25em;
-  margin: auto;
+  margin: 5% auto;
 }
 
 label{
@@ -63,8 +63,8 @@ label input:focus{
   justify-items: center;
   align-items: center;
   margin: auto;
-  background-color: #12b491;
-  color: #000000;
+  background-color: rgb(50, 153, 148);
+  color: #ffffff;
   text-align: center;
   padding: 0.9375em;
   border: none;
@@ -77,8 +77,8 @@ label input:focus{
   background-color: var(--primary-color);
   border: solid 0.0625em var(--secondary-color);
   box-shadow: 0 0 0.25em #056b63;
-  opacity:0.75;
-  color: #000000;
+  opacity:0.9;
+  color: #ffffff;
 }
 
 .registrarse{
