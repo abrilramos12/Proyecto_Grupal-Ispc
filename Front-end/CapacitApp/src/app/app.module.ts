@@ -15,6 +15,8 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { RutasComponent } from './rutas/rutas.component';
 import { LoginComponent } from './login/login.component';
+import { CourseCardComponent } from './course-card/course-card.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -32,10 +34,12 @@ import { LoginComponent } from './login/login.component';
     NoticiasComponent,
     CursosComponent,
     RutasComponent,
-    LoginComponent
+    LoginComponent,
+    CourseCardComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
   ],
   providers: [],

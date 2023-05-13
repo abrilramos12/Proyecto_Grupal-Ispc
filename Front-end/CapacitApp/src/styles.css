@@ -9,5 +9,11 @@
     margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    max-height: 100%;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
 }
 

@@ -1,12 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 
-*{
-    font-family: 'Oxygen', sans-serif;
-    margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+
 
 .navbar{
     display: flex;
@@ -20,12 +15,14 @@
     left: 0;
     top: 0;
     transition: width 0.3s ease-in-out;
+    z-index: 1;
 }
 
 .navbar:hover,
 .navbar.active
 {
     width: 35vh;
+    z-index: 1;
 }
 .navbar-lista{
     text-decoration: none;

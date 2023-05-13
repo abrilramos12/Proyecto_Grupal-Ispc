@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {CourseService} from '../services/course.service'
 
 @Component({
   selector: 'app-cursos',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./cursos.component.css']
 })
 export class CursosComponent {
+  courses: any[] = [];
+
+  constructor(private service: CourseService){
+
+    this.service.obtenerCursos().subscribe(data => {
+      this.courses = data;
+    });
+
+  }
 
 }

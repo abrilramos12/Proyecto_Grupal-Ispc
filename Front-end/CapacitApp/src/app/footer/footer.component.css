@@ -1,4 +1,7 @@
 footer{
     background-color: rgb(50, 153, 148);
-
+    max-height: 150px;
+    margin-left: 5em;
+    margin-top: auto;
+    width: 100%;
 }

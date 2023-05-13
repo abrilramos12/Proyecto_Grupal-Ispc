@@ -1,22 +1,8 @@
-<h1 style="display: flex; justify-content: center;">Cursos</h1>
-
-
-<main>
-
-      <div style="display: flex; justify-content: center;">
-          <img src="" class="img-fluid"> <br><br>
-          <p class="cursos-descripcion">Cursos Gratuitos <a href="login.html"></a></p>
-      </div>
-
-      <div style="display: flex; justify-content: center;">
-          <img src="" class="img-fluid"><br><br>
-          <p class="cursos-descripcion">Cursos Pagos<a href="login.html"></a></p>
-      </div>
-
-
-      <div style="display: flex; justify-content: center;">
-          <img src="" class="img-fluid"><br><br>
-          <p class="cursos-descripcion">Cursos para niños<a href="login.html"></a></p>
-      </div>
-
-</main>
+<div class="container">
+    <br>
+    <div class="row g-3">
+        <app-course-card class="col" *ngFor="let course of courses" [course] = "course"></app-course-card>   
+    </div>
+    <br>
+    <br>
+</div>
