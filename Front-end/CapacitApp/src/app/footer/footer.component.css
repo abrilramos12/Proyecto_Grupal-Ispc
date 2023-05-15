@@ -1,15 +1,4 @@
 footer{
-    background-color: rgb(50, 153, 148);
-    max-height: 150px;
-    margin-left: 5em;
-    margin-top: auto;
-    width: 100%;
-    text-align: center;
-    padding: 1px;
-}
-
-.copyright{
-	color: #000000;
-	font-size: 0.8125em;
-	margin: 1em;
+    background-color: var(--secondary-color);
+    
 }
