@@ -44,5 +44,19 @@
       "price": 3.50,
       "teacherId": 1
     }
+  ],
+  
+  "perfiles": [
+    {
+      "id": 1,
+      "username": "usuario1",
+      "email": "usuario1@example.com"
+    },
+    {
+      "id": 2,
+      "username": "usuario2",
+      "email": "usuario2@example.com"
+    }
   ]
 }
+
