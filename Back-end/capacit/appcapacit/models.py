@@ -16,7 +16,7 @@ class User(models.Model):
 
 class Student(models.Model):
     id_student = models.AutoField(primary_key=True)  
-    id_user = models.ForeignKey()
+    id_user = models.ForeignKey(User, to_field="id_user")
     dni = models.IntegerField()
     user_vip = models.BooleanField()
 
@@ -27,6 +27,9 @@ class Video(models.Model):
     id_course = models. ForeignKey ()
     id_teacher = models.ForeignKey()
     link = models.CharField ( max_length=45)
+
+
+
     
 
 
