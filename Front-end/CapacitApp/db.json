@@ -44,5 +44,31 @@
       "price": 3.50,
       "teacherId": 1
     }
+  ],
+
+  "routes": [
+    {
+      "id": 1,
+    "name": "Ruta 1",
+    "imagePath": "",
+    "description": "",
+    "languaje": "Typescript",
+    "tag_1": "backend",
+    "tag_2": "basic",
+    "price": 3.50,
+    "teacherId": 1
+    },
+    {
+      "id": 2,
+      "name": "Ruta 2",
+      "imagePath": "",
+      "description": "",
+      "languaje": "Typescript",
+      "tag_1": "backend",
+      "tag_2": "basic",
+      "price": 3.50,
+      "teacherId": 1
+    }
   ]
 }
+

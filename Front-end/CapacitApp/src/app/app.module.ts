@@ -16,7 +16,9 @@ import { CursosComponent } from './cursos/cursos.component';
 import { RutasComponent } from './rutas/rutas.component';
 import { LoginComponent } from './login/login.component';
 import { CourseCardComponent } from './course-card/course-card.component';
+
 import { HttpClientModule } from '@angular/common/http';
+import { RoutesAddressComponent } from './routes-address/routes-address.component';
 
 
 
@@ -36,6 +38,8 @@ import { HttpClientModule } from '@angular/common/http';
     RutasComponent,
     LoginComponent,
     CourseCardComponent,
+    RoutesAddressComponent,
+    
   ],
   imports: [
     BrowserModule,
