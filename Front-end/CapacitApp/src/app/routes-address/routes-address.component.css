@@ -1,0 +1,11 @@
+.card{
+  background-color: var(--secondary-color);
+  width: 18rem;
+  box-shadow: 10px 5px 5px rgb(0,0,0,0.3);
+  height: 450px;
+}
+
+img {
+max-width: 300px;
+max-height: 400px;
+}

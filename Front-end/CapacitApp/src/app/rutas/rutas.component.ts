@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Route } from '@angular/router';
+import { RouteService } from '../services/routes-service';
 
 @Component({
   selector: 'app-rutas',
@@ -6,5 +8,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./rutas.component.css']
 })
 export class RutasComponent {
+ routes: Route[] = [];  //donde guardo los array de servicio rutas
 
-}
+ constructor(private services: RouteService){
+  
+   this.getAllRoutes()//llamo a esta funcion
+ }
+
+getAllRoutes(){ //llama al servicicio y al metodo get
+  this.services.getRoutes().subscribe({ // se susbcribe a ese observable
+    next: (data) =>{ // para usar el dato
+      this.routes = data;
+    },
+    error: (error) =>{//para menejar eerrores
+      console.log("No se pueden traer las rutas", error.nsg)
+    }
+  });//aca ya tenemos los datos ...
+}}

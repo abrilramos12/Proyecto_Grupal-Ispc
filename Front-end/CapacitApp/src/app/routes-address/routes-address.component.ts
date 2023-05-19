@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Route } from '@angular/router';
 
 @Component({
   selector: 'app-routes-address',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class RoutesAddressComponent {
 
+  @Input() route!: Route;
+
+  imagePath!: string ;
+
+  constructor(){
+
+  }
+  ngOnInit():void{
+    this.imagePath = this.route.imagePath;
+  }
 }
