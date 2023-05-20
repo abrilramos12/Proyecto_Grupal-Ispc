@@ -59,6 +59,6 @@ class Course(models.Model):
     tag_2 = models.CharField (max_length=45)
     link = models.CharField (max_length=45)
     id_teacher = models.ForeignKey("Teacher", on_delete=models.CASCADE)
-    
+
 
 
