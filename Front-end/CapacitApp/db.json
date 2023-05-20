@@ -44,5 +44,35 @@
       "price": 3.50,
       "teacherId": 1
     }
-  ]
+  ],
+  "perfiles": [
+    {
+      "id": 1,
+      "username": "usuario1",
+      "email": "usuario1@example.com"
+    },
+    {
+      "id": 2,
+      "username": "usuario2",
+      "email": "usuario2@example.com"
+    }
+  ],
+  "routes": [
+    {
+      "id": 1,
+    "name": "Ruta 1",
+    "imagePath": "assets/img/java-avanzado.jpg",
+    "description": "Ruta uno",
+    "languaje": "Belu la mejor"
+
+    },
+    {
+      "id": 2,
+      "name": "Ruta 2",
+      "imagePath": "assets/img/java-avanzado.jpg",
+      "description": "Ruta dos",
+      "languaje": "Belu la mas o mesns"
+
+    }]
+
 }

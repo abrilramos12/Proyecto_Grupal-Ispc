@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { CourseService } from '../services/course.service'
+import { Component, Input, OnInit } from '@angular/core';
+import { Course } from '../Models/Course';
 
 @Component({
   selector: 'app-course-card',
@@ -8,23 +8,13 @@ import { CourseService } from '../services/course.service'
 })
 
 
-export class CourseCardComponent {
+export class CourseCardComponent implements OnInit{
 
-  @Input() course!: {
-    id: number,
-    name: string,
-    imagePath: string,
-    description: string,
-    language: string,
-    tag_1: string,
-    tag_2: string,
-    price: number,
-    teacherId: number
-  }
+  @Input() course!: Course;
 
   imagePath!: string;
 
-  constructor(private courseService: CourseService){  
+  constructor(){  
 
   }
   

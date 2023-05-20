@@ -1,1 +1,13 @@
-<h3 style="display: flex; justify-content: center;">Perfil trabajando</h3>
+<h1>Perfil</h1>
+
+<div *ngIf="perfil">
+  <p>ID: {{ perfil.id }}</p>
+  <p>Username: {{ perfil.username }}</p>
+  <p>Email: {{ perfil.email }}</p>
+</div>
+
+<div *ngIf="!perfil">
+  <p>Cargando perfil...</p>
+</div>
+
+

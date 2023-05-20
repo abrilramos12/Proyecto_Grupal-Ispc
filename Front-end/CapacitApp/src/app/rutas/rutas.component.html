@@ -13,4 +13,7 @@
           <p class="ruta-2">Ruta 2<a href="login.html"></a></p>
       </div>
 
+      <div >
+        <app-routes-address class="col" *ngFor="let route of routes" [ruta]="route"></app-routes-address>
+      </div>
 </main>
