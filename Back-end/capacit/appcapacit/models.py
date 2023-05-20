@@ -28,8 +28,20 @@ class Video(models.Model):
     id_teacher = models.ForeignKey()
     link = models.CharField ( max_length=45)
 
+class Sale(models.Model):
+    id_sale = models.AutoField(primary_key=True)
+    state = models.CharField(max_length= 50, null=True, help_text="Ingrese el estado de la compra" )
+    discount = models.FloatField(help_text="Descuento")
+    value = models.FloatField(null=False)
+    id_student = models.ForeignKey("Student", on_delete=models.CASCADE)
+    id_course = models.ForeignKey("Course", on_delete=models.CASCADE)
+    id_teacher = models.ForeignKey("Teacher", on_delete=models.CASCADE)
 
 
-    
+class Payment(models.Model):
+    id_payment = models.AutoField(primary_key=True)
+    date = models.DateField(null=False, auto_now_add=True)
+    total = models.FloatField(null=False)
+    id_sale = models.ForeignKey("Sale", on_delete=models.CASCADE)
 
 
