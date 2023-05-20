@@ -1,0 +1,78 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introducción a Go",
+      "imagePath": "/assets/img/go-intro.jpg",
+      "description": "Descubre el lenguaje de programación Go y aprende los conceptos fundamentales para construir aplicaciones eficientes y de alto rendimiento.",
+      "languaje": "Go",
+      "tag_1": "backend",
+      "tag_2": "basic",
+      "price": 5.98,
+      "teacherId": 1
+    },
+    {
+      "id": 2,
+      "name": "Introducción a Java",
+      "imagePath": "assets/img/java-intro.png",
+      "description": "Aprende los fundamentos de programación en Java con este curso introductorio. Adquiere conocimientos básicos y comienza a desarrollar aplicaciones.",
+      "languaje": "Java",
+      "tag_1": "backend",
+      "tag_2": "basic",
+      "price": 4.5,
+      "teacherId": 2
+    },
+    {
+      "id": 3,
+      "name": "Java avanzado",
+      "imagePath": "assets/img/java-avanzado.jpg",
+      "description": "Mejora tus habilidades en Java con este curso avanzado. Profundiza en temas como programación orientada a objetos, bases de datos y desarrollo web.",
+      "languaje": "Java",
+      "tag_1": "backend",
+      "tag_2": "intermediate",
+      "price": 10.00,
+      "teacherId": 2
+    },
+    {
+      "id": 4,
+      "name": "Introducción a Typescript",
+      "imagePath": "assets/img/typescript-intro.jpg",
+      "description": "Explora el lenguaje de programación TypeScript y familiarízate con su tipado estático y características modernas para el desarrollo de aplicaciones web robustas.",
+      "languaje": "Typescript",
+      "tag_1": "backend",
+      "tag_2": "basic",
+      "price": 3.50,
+      "teacherId": 1
+    }
+  ],
+  "perfiles": [
+    {
+      "id": 1,
+      "username": "usuario1",
+      "email": "usuario1@example.com"
+    },
+    {
+      "id": 2,
+      "username": "usuario2",
+      "email": "usuario2@example.com"
+    }
+  ],
+  "routes": [
+    {
+      "id": 1,
+    "name": "Ruta 1",
+    "imagePath": "assets/img/java-avanzado.jpg",
+    "description": "Ruta uno",
+    "languaje": "Belu la mejor"
+
+    },
+    {
+      "id": 2,
+      "name": "Ruta 2",
+      "imagePath": "assets/img/java-avanzado.jpg",
+      "description": "Ruta dos",
+      "languaje": "Belu la mas o mesns"
+
+    }]
+
+}
