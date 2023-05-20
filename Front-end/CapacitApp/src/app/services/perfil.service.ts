@@ -17,6 +17,6 @@ export class PerfilService {
 
   getPerfil(usuarioId: number): Observable<Perfil> {
     const url = `${this.url}/${usuarioId}`;
-    return this.http.get<Perfil>(this.url + "perfiles");
-}
+    return this.http.get<Perfil>(url);
+  }
 }

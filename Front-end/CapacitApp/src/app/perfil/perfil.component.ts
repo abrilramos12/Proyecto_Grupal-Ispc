@@ -18,20 +18,20 @@ export class PerfilComponent{
 
 
   ngOnInit() {
-    const usuarioId = 1;
+    const usuarioId = 2;
     this.getPerfil(usuarioId);
   }
 
   getPerfil(usuarioId: number) {
-    this.perfilService.getPerfil(usuarioId).subscribe(
-      (perfil) => {
+    this.perfilService.getPerfil(usuarioId).subscribe({
+      next: (perfil) => {
         this.perfil = perfil;
         console.log('Perfil del usuario:', this.perfil);
       },
-      (error) => {
+      error: (error) => {
         console.error('Error al obtener el perfil:', error);
       }
-    );
+    });
   }
 
 
