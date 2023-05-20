@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { CourseService } from '../services/course.service'
 import { Course } from '../Models/Course';
 
 @Component({
