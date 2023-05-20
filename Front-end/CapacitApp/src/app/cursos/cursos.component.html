@@ -1,7 +1,40 @@
 <div class="container">
+    <!-- id: number,
+    name: string,
+    imagePath: string,
+    description: string,
+    languaje: string,
+    tag_1: string,
+    tag_2: string,
+    price: number,
+    teacherId: number -->
+    <div class="form-container">
+        <form (ngSubmit)="createCourse()" #formCourse="ngForm">
+            <!-- <div class="form-group">
+                <label for="id">Id</label>
+                <input type="number" class="form-control" [(ngModel)]="newCourse.id" name="id" placeholder="id" required>
+            </div> -->
+            <div class="form-group">
+                <label for="name">Nombre curso</label>
+                <input type="text" class="form-control" [(ngModel)]="newCourse.name" name="name" placeholder="Nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Descripcion del curso</label>
+                <input type="text" class="form-control" [(ngModel)]="newCourse.description" name="description" placeholder="Descripcion">
+            </div>
+            <div class="form-group">
+                <label for="price">Precio del curso</label>
+            <input type="number" class="form-control" [(ngModel)]="newCourse.price" name="name" placeholder="Precio" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-2">Crear Curso</button>
+
+        </form>
+    </div>
     <br>
     <div class="row g-3">
-        <app-course-card class="col" *ngFor="let course of courses" [course] = "course"></app-course-card>   
+        <app-course-card class="col" *ngFor="let course of courses" [course]="course"></app-course-card>
     </div>
     <br>
     <br>

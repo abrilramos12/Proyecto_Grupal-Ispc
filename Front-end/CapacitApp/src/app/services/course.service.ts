@@ -8,11 +8,23 @@ import { Observable } from 'rxjs';
 })
 export class CourseService {
 
-  url:string = 'http://localhost:3000/'
+  private url:string = 'http://localhost:3000/'
 
   constructor(private http: HttpClient) { }
 
-  obtenerCursos(): Observable<Course[]> {
+  getCourses(): Observable<Course[]> {
     return this.http.get<Course []>(this.url + "courses")
   }
+
+  createCourse(newCourse: Course){
+    return this.http.post<Course>(this.url + "courses", newCourse)
+  }
+
+  findCourseById(Id: number) {
+    
+  }
+
+  updateCourse(){}
+
+  deleteCourse(){}
 }

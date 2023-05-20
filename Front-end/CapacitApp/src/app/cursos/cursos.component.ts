@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import {CourseService} from '../services/course.service'
+import { CourseService } from '../services/course.service'
 import { Course } from '../Models/Course';
+
 
 @Component({
   selector: 'app-cursos',
@@ -9,14 +10,36 @@ import { Course } from '../Models/Course';
 })
 export class CursosComponent {
   courses: Course[] = [];
+  newCourse: Course = {} as Course;
 
-  constructor(private service: CourseService){
+  constructor(private service: CourseService) {
 
-    this.service.obtenerCursos().subscribe(data => {
-      this.courses = data;
-    });
-
+    this.getAllCourses()
   }
 
+  getAllCourses() {
+    this.service.getCourses().subscribe({
+      next: (data) => {
+        this.courses = data;
+      },
+      error: (error) => {
+        console.log("No se pueden traer los usuarios", error)
+      }
+    });
+  }
+
+  createCourse() {
+    this.service.createCourse(this.newCourse)
+      .subscribe({
+        next: (data) => {
+          console.log("Curso creado exitosamente", data)
+          this.newCourse = {} as Course;
+
+        },
+        error: (error) => {
+          console.log("Error al creal el curso", error)
+        }
+      })
+  }
 
 }
