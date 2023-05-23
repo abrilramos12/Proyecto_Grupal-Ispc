@@ -1,4 +1,5 @@
 from django.db import models
+from datetime import datetime
 
 # Create your models here.
 class User(models.Model):
@@ -14,11 +15,18 @@ class User(models.Model):
     user_git = models.CharField (max_length=45)
     user_linkedin = models.CharField (max_length=100)
 
+    # metodo str para que retorne nombre, no objet
+    def __str__(self):
+        return "{} {} {} {}".format(self.id_user, self.first_name, self.last_name, self.username)
+
 class Student(models.Model):
     id_student = models.AutoField(primary_key=True)  
     id_user = models.ForeignKey(User, to_field="id_user", on_delete=models.CASCADE)
     dni = models.IntegerField()
     user_vip = models.BooleanField()
+
+    def __str__(self):
+        return "{} {}".format(self.id_student, self.dni)
 
 class Video(models.Model):
     id_video = models.AutoField(primary_key=True)
@@ -27,6 +35,9 @@ class Video(models.Model):
     id_course = models. ForeignKey ("Course", on_delete=models.CASCADE)
     id_teacher = models.ForeignKey("Teacher", on_delete=models.CASCADE)
     link = models.CharField ( max_length=45)
+
+    def __str__(self):
+        return "{} {}".format(self.id_video, self.id_course)
 
 class Sale(models.Model):
     id_sale = models.AutoField(primary_key=True)
@@ -37,6 +48,8 @@ class Sale(models.Model):
     id_course = models.ForeignKey("Course", on_delete=models.CASCADE)
     id_teacher = models.ForeignKey("Teacher", on_delete=models.CASCADE)
 
+    def __str__(self):
+        return "{}".format(self.id_sale)
 
 class Payment(models.Model):
     id_payment = models.AutoField(primary_key=True)
@@ -44,12 +57,16 @@ class Payment(models.Model):
     total = models.FloatField(null=False)
     id_sale = models.ForeignKey("Sale", on_delete=models.CASCADE)
 
+    def __str__(self):
+        return "{} {}".format(self.id_payment, self.date)
 
 class Teacher(models.Model):
     id_teacher = models.AutoField(primary_key=True)  
     id_user = models.ForeignKey(User, to_field="id_user", on_delete=models.CASCADE)
     dni = models.IntegerField()
 
+def __str__(self):
+        return "{} {}".format(self.id_teacher, self.dni)
 
 class Course(models.Model):
     id_course = models.AutoField(primary_key=True)
@@ -59,6 +76,9 @@ class Course(models.Model):
     tag_2 = models.CharField (max_length=45)
     link = models.CharField (max_length=45)
     id_teacher = models.ForeignKey("Teacher", on_delete=models.CASCADE)
+
+    def __str__(self):
+        return "{} {} {}".format(self.id_course, self.name, self.languaje)
 
 
 
