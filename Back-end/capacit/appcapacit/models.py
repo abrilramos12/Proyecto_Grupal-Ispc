@@ -65,7 +65,7 @@ class Teacher(models.Model):
     id_user = models.ForeignKey(User, to_field="id_user", on_delete=models.CASCADE)
     dni = models.IntegerField()
 
-def __str__(self):
+    def __str__(self):
         return "{} {}".format(self.id_teacher, self.dni)
 
 class Course(models.Model):
