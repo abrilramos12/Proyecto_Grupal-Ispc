@@ -82,8 +82,22 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
+    },
+}    
+
+#  "default": {
+#      "ENGINE": "django.db.backends.mysql",
+#      "NAME": "Capacit_E-commerce",
+#      "USER": "root",
+#      "PASSWORD": "contraseña",
+#      "HOST": "localhost",
+#      "PORT": "3306",
+#      "OPTIONS": {
+#      "sql_mode": "traditional",
+#      }
+#  }
+          
+
 
 
 # Password validation
