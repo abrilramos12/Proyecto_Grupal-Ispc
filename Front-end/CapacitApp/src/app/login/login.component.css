@@ -1,0 +1,93 @@
+:root{
+  --primary-color:white;
+  --secondary-color:#f3f3f4;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+*{
+  font-family: 'Oxygen', sans-serif;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25em;
+  margin: 5% auto;
+}
+
+label{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125em;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
+label span{
+  font-weight: 700;
+}
+
+label input{
+  width: 20%;
+  min-width: 300px;
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 0.625em 1.25em;
+  border-radius: 0.625em;
+  outline: none;
+  font-size: 14pt;
+  transition: background-color 0.5s,border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover{
+  background-color: var(--primary-color);
+  border: solid 0.0625em var(--secondary-color);
+  box-shadow: 0 0 0.25em #d60366;
+}
+
+label input:focus{
+  background-color: var(--primary-color);
+  border: solid 0.0625em var(--secondary-color);
+  box-shadow: 0 0 0.25em #d60366;
+}
+
+.recuperar-contra{
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.boton{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(50, 153, 148);
+  color: #ffffff;
+  text-align: center;
+  padding: 0.9375em;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 14pt;
+  cursor:pointer;
+}
+
+.boton:hover{
+  background-color: var(--primary-color);
+  border: solid 0.0625em var(--secondary-color);
+  box-shadow: 0 0 0.25em #056b63;
+  opacity:0.9;
+  color: #ffffff;
+}
+
+.registrarse{
+  margin: auto;
+  display: flex;
+  flex-direction: column;/*separado y ordenado verticalmente*/
+  align-items: center;
+  justify-content: center;
+  border: none;
+  justify-items: center;
+
+}

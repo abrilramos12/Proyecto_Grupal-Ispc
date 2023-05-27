@@ -1,0 +1,50 @@
+
+<div class="container">  
+    <form action="" method="get" onsubmit="onEnviar()">
+        <div class="section-inputs">
+            <label for="name">
+                <span>Name</span>
+                <input autoFocus type="text" name="" id="name" required>
+            </label>
+        </div>
+        <div>
+            <label for="lastname">
+                <span>Lastname</span>
+                <input type="text" name="lastname" id="lastname" required>
+            </label>
+        </div>
+        <div>
+            <label for="username">
+                <span>Username</span>
+                <input type="text" name="username" id="username" required>
+            </label>
+        </div>
+        <div>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" name="email" id="email" required>
+            </label>
+        </div>
+        <div>
+            <label for="password">
+                <span>Password</span>
+                <input type="password" name="password" id="password" required minlength="8" maxlength="15" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+            </label>
+        </div>
+        <span>Recuérdame</span>
+        
+        <div>
+            <label for="boton">
+                <button class="boton"type="submit">Crear cuenta</button>
+            </label>
+        </div>
+        <div class="separator">
+            <hr>
+            <span> </span>
+            <hr>
+        </div>
+    </form>
+</div>
+<div class="toggle" onclick= "toggleMenu()">
+    <span><i class="bi bi-list"></i></span>
+</div>

@@ -1,0 +1,140 @@
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px ;
+}
+nav ul{
+  display: flex;
+  align-content: center;
+
+}
+
+
+nav ul a{
+  background-color: rgb(50, 153, 148);
+  color:white;
+  margin: 5px 10px 5px 10px;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 5px;
+  transition: background-color .5s ;
+}
+nav ul a:last-child {
+  background: #b2b3b2;
+}
+
+nav ul a:hover{
+  background-color: white;
+  color: #030303;
+  box-shadow: 1px 10px 30px #030303;
+}
+
+nav a:active{
+  color: red;
+  transform: scale(0.9);
+}
+
+header{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  min-width: 480px;
+  /* background-color: rgb(50, 153, 148); */
+  background-image: linear-gradient(to bottom right,rgb(38, 156, 156),#f3f3f4 );
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5.1em;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+header a h1{
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  margin-right: 50px;
+}
+
+header form{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header form input{
+  padding: 10px;
+  font-size:17px;
+  border: 1px solid grey;
+  width: 300px;
+  min-width: 50px;
+  height: 40px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+header form button{
+  padding: 5px;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(215,215,215);
+  border:1px solid grey;
+  border-radius: 0px 10px 10px 0px;
+  box-sizing: border-box;
+}
+
+header form button:hover{
+  background-color: rgb(255, 255, 255);
+}
+header form button:active{
+  transform: scale(0.9);
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width:900px){
+  header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header form{
+    position: relative;
+    width: 350px;
+
+  }
+  header form input {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+  header form button {
+    position: relative;
+    left: 5px;
+    border-radius: 10px;
+  }
+
+
+  nav{
+    padding:10px 0px;
+  }
+}
+
+
+

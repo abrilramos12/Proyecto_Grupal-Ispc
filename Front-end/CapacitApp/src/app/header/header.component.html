@@ -1,0 +1,20 @@
+<header>
+  <a routerLink="/home" class="logo">
+    <img src="../../assets/img/logo-imagen-sin-letra.png" alt="logo de CapacitApp" />
+    <h1 class="logo-nombre">{{ brand }}</h1>
+  </a>
+
+  <form>
+    <input type="text" placeholder="Buscar" name="busqueda">
+    <button type="submit" class="bi bi-search"></button>
+  </form>
+
+  <nav>
+    <ul>
+      <a routerLink="/login">Login</a>
+      <a routerLink="/register">Registro</a>
+      <a routerLink="/cart">
+        <span class="bi bi-cart2"></span></a>
+    </ul>
+  </nav>
+</header>

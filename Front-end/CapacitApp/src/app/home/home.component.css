@@ -1,0 +1,219 @@
+:root{
+    --primary-color:rgb(50, 153, 148);
+    --secondary-color:rgb(99, 199, 199);}
+
+
+body {
+	min-height: 100vh;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    padding-bottom: 1rem;
+    position: fixed;
+    height: 100%;
+    flex-direction: column;
+    width: 5em;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar:hover,
+.navbar.active
+{
+    width: 35vh;
+}
+.navbar-lista{
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+	padding-left: 1.5rem;
+}
+.navbar-lista-item{
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bi {
+    font-size: 1.4rem;
+    padding: 0.625em;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+	padding: 2%;
+    color: black;
+    outline: transparent solid 0.125em;
+    outline-offset: 0.125em;
+    display: flex;
+    width: var(--width);
+    overflow: hidden;
+}
+
+/* body index*/
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	background-color: var(--primary-color);
+	padding: 2.5em;
+	text-align: center;
+    width: 90%;
+    border-radius: 1.875em;
+	margin-top: 30px;
+	margin-left: 110px;
+	margin-right: 10px;
+	
+}
+.principal p{
+	margin: 0 0 1em;
+}
+.principal strong{
+	font-weight: bold;
+}
+.principal em{
+	font-style: italic;
+}
+.presentacion{
+	width: 7.5em;
+	float: left;
+	margin: 0 1.25em 1.25em 0;
+}
+
+.video{
+	width: 35em;
+	margin: 1em auto;
+}
+
+@media screen and (max-width:30em){
+	h1{
+		text-align: center;
+	}
+	nav{
+		position: static;
+	}
+
+	.caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+	width: auto;
+	}
+
+	.lista-diferenciales, .imagenDiferenciales{
+		width: 100%;
+	}
+}
+ /*footer*/
+
+ footer{
+	text-align: center;
+	background:  #FFFFFF;
+	padding: 2.5em;
+}
+.copyright{
+	color: #000000;
+	font-size: 0.8125em;
+	margin: 1.25em;
+}
+
+
+/*cursos*/
+
+.cursos{
+	width: 58.75em;
+	margin: 0 auto;
+	padding: 3.125em;
+}
+.cursos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 1.875em 1.25em;
+	box-sizing: border-box;
+	border: 0.125em solid #000000;
+	border-radius: 0.625em;
+}
+.cursos li:hover{
+	border-color: #c78c19;
+}
+.cursos li:active{
+	border-color: #088c19;
+}
+.cursos h2{
+	font-size: 1.875em;
+	font-weight: bold;
+}
+.cursos li:hover h2{
+	font-size: 2.0625em;
+}
+.cursos-descripcion{
+	font-size: 1.125em;
+}
+.cursos-precio{
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-top: 0.625em;
+}
+
+.ruta{
+	display: inline-block;
+	width: 60%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 1.875em 1.25em;
+	box-sizing: border-box;
+	border: 0.125em solid #000000;
+	border-radius: 0.625em;
+}
+
+.toggle
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    cursor: pointer;
+}
+.toggle span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.toggle.active
+{
+    background: var(--secondary-color) ;
+}
+.toggle:before
+{   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.toggle:before span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 40px;
+    color: black;
+}
